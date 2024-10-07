@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Fredoka", sans-serif;
 }
-body button{
+body button,li{
     cursor: pointer;
 }
 
@@ -87,7 +87,7 @@ body button{
 
 /* Banner Start */
 .bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.726)), url(/Images/banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.726)), url(/Images/banner2.jpg);
     padding: 10rem; 
     background-size: cover;
     /* background-repeat: no-repeat; */
@@ -253,3 +253,198 @@ body button{
     background: none;
 }
 /* Our Product End */
+
+
+
+/* Booknow Start */
+.booknow-bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.726)), url(/Images/Booknow.jpg) repeat fixed;
+    padding: 2rem; 
+    background-size: cover;
+}
+
+.booknow-container p {
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.booknow-container h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.booknow-btn{
+    text-align: center;
+}
+.booknow-btn button{
+    padding: 10px 20px;
+    margin-top: 10px; 
+    border-radius: 10px;
+    border: #f7be03 1px solid;
+    letter-spacing: 1px;
+}
+.booknow-btn button:hover{
+    border: #ffffff 1px solid;
+    letter-spacing: 1px;
+    background-color: #f0cf64;
+}
+/* Booknow End */
+
+/* Contact Us Start */
+.contact{
+    margin: 3rem;
+}
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.contact-info{
+    width: 40%;
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 3rem;
+    width: 60%;
+    padding: 2rem;
+}
+.info-section h3,p{
+    margin-bottom: 8px;
+}
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 5px 20px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    border: #f7be03 1px solid;
+    letter-spacing: 1px;
+    background-color: #f0cf64;
+    width: 20%;
+}
+
+.contact-form button:hover {
+    border: #f0cf64 1px solid;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.info-section h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Contact Us End */
+
+/* Footer Start */
+.footer{
+    background-color: #ececec;
+    padding: 2rem;
+    color: #000000;
+    margin-top: 1px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.company h3{
+    margin-bottom: 1rem;
+}
+.footer-container ul li{
+    list-style-type: none;
+    margin-top: 1rem;
+}
+.newsletter h3{
+    margin-bottom: 1rem;
+}
+.newsletter input{
+    padding: 10px;
+    border: none;
+    border-radius: 7px 0 0 7px;
+    border: 1px solid #adadad;
+}
+.newsletter button{
+    padding: 10px;
+    border: none;
+    border-radius: 0 7px 7px 0;
+    border: 1px solid #adadad;
+}
+.footer-container h3{
+    font-size: 15px;
+}
+.footer-container ul li, p{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+    .footer-container{
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .compan, .policies, .newsletter, .knowus{
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .footer-container{
+        display: block;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .compan, .policies, .newsletter, .knowus{
+        margin-top: 2rem;
+    }
+    .footer-container h3{
+        font-size: 14px;
+    }
+    .footer-container ul li, p{
+        font-size: 12px;
+    }
+}
+/* Footer End */
