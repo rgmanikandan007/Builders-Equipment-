@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+body button,li{
+    cursor: pointer;
+}
+
+
+/* About Banner Start */
+.about-banner-bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.486)), url(/Images/about-banner.jpg);
+    padding: 5rem; 
+    background-size: cover;
+}
+.about-banner-container h1{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.about-banner-container a{
+    text-decoration: none;
+    color: #fff;
+}
+/* About Banner End */
+
+
+/* About Us Start */
+.aboutus {
+    padding: 2rem;
+}
+
+.aboutus-container {
+    width: 100%;
+    display: flex;
+}
+
+.left-aboutus {
+    width: 48%;
+}
+
+.left-aboutus img {
+    width: 90%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.right-aboutus {
+    width: 60%;
+    padding-top: 2rem;
+}
+
+.right-aboutus h3 {
+    margin-bottom: 2rem;
+}
+
+.right-aboutus h2 {
+    margin-bottom: 2rem;
+}
+
+.right-aboutus p {
+    color: #000000;
+    line-height: 35px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.right-aboutus button {
+    padding: 10px 20px;
+    margin-top: 10px; 
+    border-radius: 20px;
+    border: #f7be03 1px solid;
+    letter-spacing: 1px;
+    background-color: #f0cf64;
+}
+
+.right-aboutus button:hover {
+    background: none;
+}
+/* About Us End */
+
+
+

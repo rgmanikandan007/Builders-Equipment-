@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+body button,li{
+    cursor: pointer;
+}
+
+
+/* Contact Banner Start */
+.contact-banner-bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.541)), url(/Images/contact-banner.jpg);
+    padding: 5rem; 
+    background-size: cover;
+}
+.contact-banner-container h1{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.contact-banner-container a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Contact Banner End */
+
+
+/* Contact Us Start */
+.contact{
+    margin: 3rem;
+}
+.contact-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.contact-info{
+    width: 40%;
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    padding: 2rem;
+}
+.info-section h3,p{
+    margin-bottom: 8px;
+}
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 5px 20px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    border: #f7be03 1px solid;
+    letter-spacing: 1px;
+    background-color: #f0cf64;
+    width: 20%;
+}
+
+.contact-form button:hover {
+    border: #f0cf64 1px solid;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info-section {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.info-section h3 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Contact Us End */

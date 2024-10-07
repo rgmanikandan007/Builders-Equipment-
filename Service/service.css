@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+body button,li{
+    cursor: pointer;
+}
+
+
+/* About Banner Start */
+.service-banner-bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.541)), url(/Images/service-banner.jpg);
+    padding: 5rem; 
+    background-size: cover;
+}
+.service-banner-container h1{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.service-banner-container a{
+    text-decoration: none;
+    color: #fff;
+}
+/* About Banner End */
+
+
+
+/* Service Start */
+.service{
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.service-head{
+    padding: 2rem;
+}
+.service-head h2{
+    margin-bottom: 1rem;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.child-service{
+    background-color: #eeeeee;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 1rem;
+}
+.child-service h3{
+    margin: 1rem 1rem;
+}
+/* Service End */

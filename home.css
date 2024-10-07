@@ -319,7 +319,6 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 3rem;
     width: 60%;
     padding: 2rem;
 }
