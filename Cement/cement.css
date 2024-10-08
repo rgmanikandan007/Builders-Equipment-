@@ -14,7 +14,7 @@ body button,li{
 
 /* Product Banner Start */
 .product-banner-bg-img {
-    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.541)), url(/Images/Cement-images/cement-banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.541)), url(/Images/Cement-images/cement-banner.jpg);
     padding: 5rem; 
     background-size: cover;
 }
