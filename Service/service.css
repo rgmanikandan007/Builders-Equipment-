@@ -9,7 +9,7 @@ body button,li{
 }
 
 
-/* About Banner Start */
+/* Service Banner Start */
 .service-banner-bg-img {
     background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.541)), url(/Images/service-banner.jpg);
     padding: 5rem; 
@@ -24,7 +24,7 @@ body button,li{
     text-decoration: none;
     color: #fff;
 }
-/* About Banner End */
+/* Service Banner End */
 
 
 

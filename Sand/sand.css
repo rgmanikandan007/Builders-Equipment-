@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+body button,li{
+    cursor: pointer;
+}
+
+
+
+
+
+/* Product Banner Start */
+.product-banner-bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.541)), url(/Images/Sand-images/sand-banner.jpg);
+    padding: 5rem; 
+    background-size: cover;
+}
+.product-banner-container h1{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.product-banner-container a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Product Banner End */
+
+
+/* Cement Start */
+.sand{
+    padding: 2rem;
+}
+.sand-container{
+    display: flex;
+    justify-content: space-around;
+}
+.child-sand{
+    text-align: center;
+    margin: 1rem;
+}
+.child-sand img{
+    border-radius: 5px;
+}
+.child-sand button{
+    padding: 5px 20px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    border: #f7be03 1px solid;
+    letter-spacing: 1px;
+    background-color: #f0cf64;
+}
+/* Cement End */

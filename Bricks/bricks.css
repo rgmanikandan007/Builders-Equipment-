@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+}
+body button,li{
+    cursor: pointer;
+}
+
+
+
+
+
+/* Product Banner Start */
+.product-banner-bg-img {
+    background: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.541)), url(/Images/Bricks-images/bricks-banner.jpg);
+    padding: 5rem; 
+    background-size: cover;
+}
+.product-banner-container h1{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+.product-banner-container a{
+    text-decoration: none;
+    color: #fff;
+}
+/* Product Banner End */
+
+
+/* Bricks Start */
+.bricks{
+    padding: 2rem;
+    background-color: rgb(240, 237, 237);
+}
+.bricks-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.child-bricks{
+    margin: 1rem;
+}
+.child-bricks img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 100px;   
+}
+.child-bricks button{
+    padding: 5px 20px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    border: #f7be03 1px solid;
+    letter-spacing: 1px;
+    background-color: #f0cf64;
+}
+/* Bricks End */
