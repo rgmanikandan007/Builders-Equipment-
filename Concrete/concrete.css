@@ -28,3 +28,65 @@ body button,li{
     color: #fff;
 }
 /* Product Banner End */
+
+
+/* Concrete Us Start  */
+.concrete {
+    padding: 2rem;
+}
+
+.concrete-container {
+    width: 100%;
+    display: flex;
+}
+
+.left-concrete {
+    width: 48%;
+}
+
+.left-concrete img {
+    width: 90%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.right-concrete {
+    width: 60%;
+    padding-top: 1.5rem;
+}
+
+.right-concrete h3 {
+    margin-bottom: 2rem;
+}
+
+.right-concrete h2 {
+    margin-bottom: 2rem;
+}
+
+.right-concrete ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 13px;
+    margin-bottom: 1rem;
+}
+.right-concrete p {
+    color: #000000;
+    line-height: 35px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.right-concrete button {
+    padding: 10px 20px;
+    margin-top: 10px; 
+    border-radius: 5px;
+    border: #f7be03 1px solid;
+    letter-spacing: 1px;
+    background-color: #f0cf64;
+}
+
+.right-concrete button:hover {
+    background: none;
+}
+/* Concrete Us End  */
