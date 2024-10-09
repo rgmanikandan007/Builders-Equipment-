@@ -71,6 +71,14 @@ body button,li{
     color: #111;
     cursor: pointer;
 }
+.enquiry-btn a{
+    text-decoration: none;
+    color: #111;
+}
+.enquiry-btn a:hover{
+    text-decoration: none;
+    text-decoration: none;
+}
 .enquiry-btn button{
     padding: 10px 20px;
     margin-top: 10px; 
