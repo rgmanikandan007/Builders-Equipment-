@@ -14,6 +14,43 @@
         rel="stylesheet">
 </head>
 <body>
+    <!-- Navbar Start -->
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="/home.html"><img src="/Images/nav-logo.png" alt="navlogo"></a>
+            </div>
+    
+            <div class="navbar-links" id="navbar-links">
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/About/about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Products</a>
+                        <div class="dropdown-content">
+                            <a href="/Cement/cement.html">Cement</a>
+                            <a href="/SteelTMT/steelTMT.html">Steel - TMT</a>
+                            <a href="/Sand/sand.html">Sand</a>
+                            <a href="/Jalli/jalli.html">Bluemetal-Jalli</a>
+                            <a href="/Bricks/bricks.html">Bricks</a>
+                            <a href="/Concrete/concrete.html">Ready Mix Concrete</a>
+                        </div>
+                    </li>
+                    <li><a href="/Service/service.html">Services</a></li>
+                    <li><a href="/Contact/contact.html">Contact</a></li>
+                </ul>
+            </div>
+    
+            <div class="enquiry-btn">
+                <button><a href="/Contact/contact.html">Enquiry Now</a></button>
+            </div>
+    
+            <button class="navbar-toggle" id="toggle-btn">&#9776;</button>
+            <button class="navbar-close" id="close-btn">&times;</button>
+        </div>
+    </div>    
+    <!-- Navbar End -->
+
     <!--Product Banner Start -->
     <div class="product-banner">
         <div class="product-banner-bg-img">
@@ -66,6 +103,66 @@
     <!-- Jalli End -->
 
 
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="company" data-aos="fade-left">
+                <h3>Our Builders Equipments</h3>
+                <p>We partner with builders, engineers, project managers, contractors, <br> developers, roofing
+                    contractors,
+                    and also each and every individual <br> who dream of constructing their own individual home.<br><br>
+                    information, Call us at +91 9393939393</p>
+            </div>
+            <div class="knowus" data-aos="fade-right">
+                <h3>GET TO KNOW US</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Services</li>
+                    <li>Products</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="policies" data-aos="fade-up-left">
+                <h3>POLICIES</h3>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Shipping Policy</li>
+                    <li>Terms and Conditions</li>
+                    <li>Refund policy</li>
+                    <li>International Shipping Policy</li>
+                </ul>
+            </div>
+            <div class="newsletter" data-aos="fade-up-right">
+                <h3>Bussiness Hours</h3>
+                <p>Our support available to help you 24 hours a day, <br> seven days a week.</p>
+                <ul>
+                    <li>Monday-Friday: 9am to 5pm</li>
+                    <li>Saturday: 10am to 2pm</li>
+                    <li>Sunday: Closed</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <script>
+        const toggleBtn = document.getElementById('toggle-btn');
+        const closeBtn = document.getElementById('close-btn');
+        const navbarLinks = document.getElementById('navbar-links');
+
+        toggleBtn.addEventListener('click', () => {
+            navbarLinks.classList.add('active');
+            toggleBtn.style.display = 'none';
+            closeBtn.style.display = 'block'; 
+        });
+
+        closeBtn.addEventListener('click', () => {
+            navbarLinks.classList.remove('active');
+            toggleBtn.style.display = 'block'; 
+            closeBtn.style.display = 'none';  
+        });
+    </script>
 
 
 </body>
