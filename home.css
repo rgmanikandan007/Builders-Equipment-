@@ -223,6 +223,37 @@ body button,li{
     letter-spacing: 1px;
     background-color: #ffffff;
 }
+/* Styles for devices with max-width of 768px */
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .navbar {
+      display: block;
+    }
+  }
+  
+  /* Styles for devices with max-width of 320px */
+  @media (max-width: 320px) {
+    body {
+      font-size: 14px;
+    }
+  
+    .container {
+      padding: 5px;
+    }
+  
+    .navbar {
+      display: none;
+    }
+  }
+  
 /* Banner End */
 
 
@@ -279,7 +310,53 @@ body button,li{
 .right-aboutus button:hover {
     background: none;
 }
-
+/* Media query for devices with max-width of 768px */
+@media (max-width: 768px) {
+    .aboutus-container {
+      flex-direction: column;
+      /* text-align: center; */
+      padding: 15px;
+    }
+  
+    .right-aboutus {
+      width: 100%;
+      padding: 15px 0;
+    }
+  
+    .left-aboutus img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for devices with max-width of 320px */
+  @media (max-width: 320px) {
+    .aboutus-container {
+      padding: 10px;
+    }
+  
+    .right-aboutus h3 {
+      font-size: 18px;
+    }
+  
+    .right-aboutus p {
+      font-size: 14px;
+    }
+  
+    .left-aboutus img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .right-aboutus {
+      padding: 10px 0;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
 /* About Us End */
 
 
@@ -303,11 +380,40 @@ body button,li{
     font-size: 13px;
     letter-spacing: 1px;
 }
+/* Media Query for max-width: 768px */
+@media (max-width: 768px) {
+    .success-container {
+        flex-direction: column;
+    }
+
+    .child-success {
+        margin-bottom: 20px;
+    }
+}
+
+/* Media Query for max-width: 320px */
+@media (max-width: 320px) {
+    .child-success h3 {
+        font-size: 16px; /* Smaller text size */
+    }
+
+    .child-success p {
+        font-size: 14px; /* Smaller text size */
+    }
+
+    .success-container {
+        gap: 10px; /* Reduce gap between items */
+    }
+
+    .child-success img {
+        width: 50px; /* Reduce image size */
+    }
+}
 /* Success End */
 
 
 /* Our Product Start */
-.product{
+/* .product{
     padding: 2rem;
 }
 .product h2{
@@ -338,20 +444,71 @@ body button,li{
 }
 .child-product button:hover{
     background: none;
-}
-/* .child-product{
-    transition: scale 200ms;
-    border-radius: 5px;
-}
-.child-product:hover{
-    scale: 2;
-    z-index: 2;
-}
-.child-product:hover + .child-product,
-.child-product:has(+ .child-product:hover){
-    scale: 1.5;
 } */
- 
+.product {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.child-product {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.child-product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.child-product button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.child-product button:hover {
+    background-color: #555;
+}
+
+.child-product:hover {
+    transform: scale(1.05);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child-product {
+        width: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .child-product {
+        width: 90%;
+    }
+}
+
+
 /* Our Product End */
 
 
@@ -392,6 +549,58 @@ body button,li{
     letter-spacing: 1px;
     background-color: #f0cf64;
 }
+@media only screen and (max-width: 768px) {
+    .booknow {
+        padding: 20px;
+    }
+    .booknow-bg-img {
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+    .booknow-container h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .booknow-container p {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .booknow-btn button {
+        font-size: 18px;
+        padding: 10px 20px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .booknow {
+        padding: 10px;
+    }
+    .booknow-bg-img {
+        background-size: cover;
+        background-position: center;
+        padding: 10px;
+    }
+    .booknow-container h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .booknow-container p {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .booknow-btn button {
+        font-size: 16px;
+        padding: 8px 15px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
 /* Booknow End */
 
 /* Contact Us Start */
@@ -478,6 +687,82 @@ a {
 a:hover {
     text-decoration: underline;
 }
+@media only screen and (max-width: 768px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .contact-form, .contact-info {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-form h2, .contact-info h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .contact-form input, .contact-form textarea, .contact-form button {
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .info-section {
+        margin-bottom: 15px;
+    }
+
+    .info-section h3 {
+        font-size: 18px;
+    }
+
+    .info-section p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .contact-form, .contact-info {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact-form h2, .contact-info h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contact-form input, .contact-form textarea, .contact-form button {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+        margin: 8px 0;
+    }
+
+    .info-section {
+        margin-bottom: 10px;
+    }
+
+    .info-section h3 {
+        font-size: 16px;
+    }
+
+    .info-section p {
+        font-size: 14px;
+    }
+}
+
 /* Contact Us End */
 
 /* Footer Start */
