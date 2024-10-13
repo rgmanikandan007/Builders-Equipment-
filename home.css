@@ -310,11 +310,10 @@ body button,li{
 .right-aboutus button:hover {
     background: none;
 }
-/* Media query for devices with max-width of 768px */
+
 @media (max-width: 768px) {
     .aboutus-container {
       flex-direction: column;
-      /* text-align: center; */
       padding: 15px;
     }
   

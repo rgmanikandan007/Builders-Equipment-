@@ -235,6 +235,51 @@ body button,li{
 .right-aboutus button:hover {
     background: none;
 }
+@media (max-width: 768px) {
+    .aboutus-container {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .right-aboutus {
+      width: 100%;
+      padding: 15px 0;
+    }
+  
+    .left-aboutus img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media query for devices with max-width of 320px */
+  @media (max-width: 320px) {
+    .aboutus-container {
+      padding: 10px;
+    }
+  
+    .right-aboutus h3 {
+      font-size: 18px;
+    }
+  
+    .right-aboutus p {
+      font-size: 14px;
+    }
+  
+    .left-aboutus img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .right-aboutus {
+      padding: 10px 0;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  }
 /* About Us End */
 
 
