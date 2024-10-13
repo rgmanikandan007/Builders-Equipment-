@@ -235,7 +235,7 @@ body button,li{
 .right-aboutus button:hover {
     background: none;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .aboutus-container {
       flex-direction: column;
       padding: 15px;
@@ -252,8 +252,7 @@ body button,li{
     }
   }
   
-  /* Media query for devices with max-width of 320px */
-  @media (max-width: 320px) {
+  @media screen and (max-width: 320px) {
     .aboutus-container {
       padding: 10px;
     }

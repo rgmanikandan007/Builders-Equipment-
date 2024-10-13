@@ -223,12 +223,8 @@ body button,li{
     letter-spacing: 1px;
     background-color: #ffffff;
 }
-/* Styles for devices with max-width of 768px */
-@media (max-width: 768px) {
-    body {
-      font-size: 16px;
-    }
-  
+
+@media screen and (max-width: 768px) {
     .container {
       width: 100%;
       padding: 10px;
@@ -239,12 +235,8 @@ body button,li{
     }
   }
   
-  /* Styles for devices with max-width of 320px */
-  @media (max-width: 320px) {
-    body {
-      font-size: 14px;
-    }
-  
+
+  @media screen and (max-width: 320px) {
     .container {
       padding: 5px;
     }
@@ -311,7 +303,7 @@ body button,li{
     background: none;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .aboutus-container {
       flex-direction: column;
       padding: 15px;
@@ -328,8 +320,7 @@ body button,li{
     }
   }
   
-  /* Media query for devices with max-width of 320px */
-  @media (max-width: 320px) {
+  @media screen and (max-width: 320px) {
     .aboutus-container {
       padding: 10px;
     }
@@ -379,8 +370,8 @@ body button,li{
     font-size: 13px;
     letter-spacing: 1px;
 }
-/* Media Query for max-width: 768px */
-@media (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .success-container {
         flex-direction: column;
     }
@@ -390,22 +381,21 @@ body button,li{
     }
 }
 
-/* Media Query for max-width: 320px */
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .child-success h3 {
-        font-size: 16px; /* Smaller text size */
+        font-size: 16px;
     }
 
     .child-success p {
-        font-size: 14px; /* Smaller text size */
+        font-size: 14px;
     }
 
     .success-container {
-        gap: 10px; /* Reduce gap between items */
+        gap: 10px; 
     }
 
     .child-success img {
-        width: 50px; /* Reduce image size */
+        width: 50px; 
     }
 }
 /* Success End */
@@ -489,8 +479,7 @@ body button,li{
     transform: scale(1.05);
 }
 
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .product-container {
         flex-direction: column;
         align-items: center;
@@ -501,7 +490,7 @@ body button,li{
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .child-product {
         width: 90%;
     }
@@ -548,7 +537,8 @@ body button,li{
     letter-spacing: 1px;
     background-color: #f0cf64;
 }
-@media only screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .booknow {
         padding: 20px;
     }
@@ -574,7 +564,7 @@ body button,li{
     }
 }
 
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .booknow {
         padding: 10px;
     }
@@ -686,7 +676,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
-@media only screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .contact-container {
         display: flex;
         flex-direction: column;
@@ -724,7 +715,8 @@ a:hover {
         font-size: 16px;
     }
 }
-@media only screen and (max-width: 320px) {
+
+@media screen and (max-width: 320px) {
     .contact-container {
         display: flex;
         flex-direction: column;
